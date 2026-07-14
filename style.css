@@ -4,6 +4,11 @@
     box-sizing:border-box;
 }
 
+html{
+    -webkit-text-size-adjust:100%;
+    text-size-adjust:100%;
+}
+
 body{
 
     width:100%;
@@ -14,64 +19,68 @@ body{
     background-position:center;
     background-repeat:no-repeat;
 
-    font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
+    font-family:'Zen Old Mincho', serif;
+
+    overflow-x:hidden;
 }
 
 .escort{
 
     width:100%;
 
-    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 
-    padding-top:45px;
+    padding-top:6vh;
 
 }
 
-/* ---------- WELCOME ---------- */
+/* ---------------- */
 
 .welcome{
 
-    font-size:20px;
+    font-size:clamp(20px,4vw,26px);
 
-    letter-spacing:6px;
+    letter-spacing:.35em;
 
     color:#8b9471;
 
-    margin-bottom:18px;
+    margin-bottom:3vh;
 
-    font-weight:400;
+    font-weight:500;
 
 }
 
-/* ---------- 名前 ---------- */
+/* ---------------- */
 
 .guest-name{
 
-    font-size:25px;
-
-    font-weight:600;
+    font-size:clamp(26px,5vw,38px);
 
     color:#6d6d6d;
 
-    margin-bottom:18px;
+    font-weight:500;
+
+    margin-bottom:3vh;
 
 }
 
-/* ---------- メッセージ ---------- */
+/* ---------------- */
 
 .message{
 
-    font-size:14px;
-
-    line-height:1.7;
+    font-size:clamp(14px,2.8vw,18px);
 
     color:#8b9471;
 
-    margin-bottom:28px;
+    line-height:1.8;
+
+    margin-bottom:5vh;
 
 }
 
-/* ---------- 席情報 ---------- */
+/* ---------------- */
 
 .seat-info{
 
@@ -81,32 +90,36 @@ body{
 
 .arena{
 
-    font-size:22px;
+    font-size:clamp(22px,4vw,32px);
 
-    margin-bottom:8px;
+    margin-bottom:.4em;
 
 }
 
 .seat{
 
-    font-size:22px;
+    font-size:clamp(22px,4vw,32px);
 
     font-weight:600;
 
 }
 
-/* ---------- アニメーション ---------- */
+/* ---------------- */
 
 @keyframes fadeUp{
 
     from{
+
         opacity:0;
-        transform:translateY(20px);
+        transform:translateY(18px);
+
     }
 
     to{
+
         opacity:1;
         transform:translateY(0);
+
     }
 
 }
@@ -135,5 +148,5 @@ body{
 }
 
 .seat-info{
-    animation-delay:2.0s;
+    animation-delay:2s;
 }
