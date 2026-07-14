@@ -17,60 +17,32 @@ body{
     justify-content:center;
     align-items:flex-start;
 
-    padding-top:70px;
+    padding-top:75px;
 
     font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
-
-    position:relative;
 }
 
-.overlay{
-
-    position:fixed;
-    inset:0;
-
-    background:rgba(255,255,255,.05);
-}
-
-.ticket{
-
-    position:relative;
-    z-index:1;
-
-    width:78%;
-    max-width:320px;
-
-    padding:28px 22px;
-
-    border-radius:28px;
-
-    background:rgba(255,255,255,.18);
-
-    backdrop-filter:blur(18px);
-    -webkit-backdrop-filter:blur(18px);
-
-    border:1px solid rgba(255,255,255,.35);
-
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
+.text{
 
     text-align:center;
 
-    color:white;
+    color:#222;
 }
 
 .guest-name{
 
     font-size:22px;
+
     font-weight:600;
 
-    margin-bottom:28px;
+    margin-bottom:16px;
 }
 
 .arena{
 
     font-size:22px;
 
-    margin-bottom:18px;
+    margin-bottom:8px;
 }
 
 .seat{
