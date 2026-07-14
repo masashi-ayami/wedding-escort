@@ -19,9 +19,10 @@ body{
     background-position:center;
     background-repeat:no-repeat;
 
+    overflow-x:hidden;
+
     font-family:'Zen Old Mincho', serif;
 
-    overflow-x:hidden;
 }
 
 .escort{
@@ -31,6 +32,8 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
+
+    text-align:center;
 
     padding-top:6vh;
 
@@ -58,6 +61,10 @@ body{
 
 .guest-name{
 
+    width:100%;
+
+    text-align:center;
+
     font-size:clamp(26px,5vw,38px);
 
     color:#6d6d6d;
@@ -71,6 +78,10 @@ body{
 /* ---------- メッセージ ---------- */
 
 .message{
+
+    width:100%;
+
+    text-align:center;
 
     font-size:clamp(14px,2.8vw,18px);
 
@@ -86,11 +97,26 @@ body{
 
 .seat-info{
 
+    width:100%;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+
     color:#6d6d6d;
 
 }
 
+/* ---------- アリーナ ---------- */
+
 .arena{
+
+    width:100%;
+
+    text-align:center;
 
     font-size:clamp(22px,4vw,32px);
 
@@ -98,7 +124,13 @@ body{
 
 }
 
+/* ---------- 席番号 ---------- */
+
 .seat{
+
+    width:100%;
+
+    text-align:center;
 
     font-size:clamp(22px,4vw,32px);
 
@@ -150,5 +182,5 @@ body{
 }
 
 .seat-info{
-    animation-delay:2.0s;
+    animation-delay:2s;
 }
