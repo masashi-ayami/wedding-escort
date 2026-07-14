@@ -1,20 +1,86 @@
-[
-  {
-    "id": "001",
-    "name": "山田 太郎",
-    "arena": "アリーナA",
-    "seat": "1"
-  },
-  {
-    "id": "002",
-    "name": "佐藤 花子",
-    "arena": "アリーナB",
-    "seat": "8"
-  },
-  {
-    "id": "003",
-    "name": "鈴木 一郎",
-    "arena": "アリーナC",
-    "seat": "15"
-  }
-]
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wedding Escort</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Zen+Old+Mincho:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="escort">
+
+        <div class="welcome">
+            WELCOME
+        </div>
+
+        <div class="guest-name" id="guest-name">
+            読み込み中...
+        </div>
+
+        <div class="message">
+            本日はお越しいただき<br>
+            ありがとうございます
+        </div>
+
+        <div class="seat-info">
+
+            <div class="arena" id="arena"></div>
+
+            <div class="seat" id="seat"></div>
+
+        </div>
+
+    </main>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get("id");
+
+        fetch("./guests.json")
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("guests.json の読み込みに失敗しました");
+                }
+                return response.json();
+            })
+            .then(data => {
+
+                const guest = data.find(g => g.id === id);
+
+                if (guest) {
+
+                    document.getElementById("guest-name").textContent = guest.name + " 様";
+                    document.getElementById("arena").textContent = guest.arena;
+                    document.getElementById("seat").textContent = guest.seat + "番";
+
+                } else {
+
+                    document.getElementById("guest-name").textContent = "ゲストが見つかりません";
+                    document.getElementById("arena").textContent = "";
+                    document.getElementById("seat").textContent = "";
+
+                }
+
+            })
+            .catch(error => {
+
+                console.error(error);
+
+                document.getElementById("guest-name").textContent = "読み込みエラー";
+
+            });
+    </script>
+
+</body>
+
+</html>
