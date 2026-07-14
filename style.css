@@ -23,40 +23,72 @@ body{
 
     text-align:center;
 
-    padding-top:75px;
+    padding-top:45px;
+
+    color:#222;
+}
+
+/* WELCOME */
+
+.welcome{
+
+    font-size:20px;
+
+    letter-spacing:6px;
+
+    color:#8b9471;
+
+    margin-bottom:18px;
+
+    font-weight:400;
+}
+
+/* 名前 */
+
+.guest-name{
+
+    font-size:25px;
+
+    font-weight:600;
+
+    margin-bottom:18px;
+
+}
+
+/* メッセージ */
+
+.message{
+
+    font-size:14px;
+
+    line-height:1.7;
+
+    color:#8b9471;
+
+    margin-bottom:26px;
+
+}
+
+/* アリーナ */
+
+.arena{
+
+    font-size:22px;
+
+    margin-bottom:10px;
 
     color:#222;
 
 }
 
-.guest-name{
-
-    font-size:24px;
-
-    font-weight:600;
-
-    margin-bottom:14px;
-
-    text-shadow:0 1px 2px rgba(255,255,255,.7);
-
-}
-
-.arena{
-
-    font-size:20px;
-
-    margin-bottom:8px;
-
-    text-shadow:0 1px 2px rgba(255,255,255,.7);
-
-}
+/* 番号 */
 
 .seat{
 
-    font-size:20px;
+    font-size:22px;
 
     font-weight:600;
 
-    text-shadow:0 1px 2px rgba(255,255,255,.7);
+    color:#222;
 
 }
