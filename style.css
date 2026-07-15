@@ -163,8 +163,8 @@ body{
 
 }
 
-.delay1{animation-delay:.2s;}
-.delay2{animation-delay:.6s;}
+.delay1{animation-delay:.5s;}
+.delay2{animation-delay:1.0s;}
 .delay3{animation-delay:1.0s;}
 .delay4{animation-delay:1.5s;}
 .delay5{animation-delay:2.0s;}
