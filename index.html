@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Zen+Old+Mincho:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Zen+Old+Mincho:wght@400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -19,20 +19,27 @@
 
     <main class="escort">
 
-        <div class="welcome">
-            WELCOME
+        <div class="live-date fade delay1">
+            SPECIAL LIVE 2026.10.31
         </div>
 
-        <div class="guest-name" id="guest-name">
+        <div class="live-name fade delay2">
+            MASASHI × AYAMI
+        </div>
+
+        <div class="live-title fade delay3">
+            Happy Wedding Reception
+        </div>
+
+        <div class="guest-name fade delay4" id="guest-name">
             読み込み中...
         </div>
 
-        <div class="message">
-            本日はお越しいただき<br>
-            ありがとうございます
+        <div class="message fade delay5">
+            Thank you for coming
         </div>
 
-        <div class="seat-info">
+        <div class="seat-info fade delay6">
 
             <div class="arena" id="arena"></div>
 
@@ -43,19 +50,26 @@
     </main>
 
     <script>
+
         const params = new URLSearchParams(window.location.search);
-        const id = params.get("id");
+        const id = (params.get("id") || "").trim();
 
         fetch("./guests.json")
             .then(response => {
+
                 if (!response.ok) {
                     throw new Error("guests.json の読み込みに失敗しました");
                 }
+
                 return response.json();
+
             })
+
             .then(data => {
 
-                const guest = data.find(g => g.id === id);
+                const guest = data.find(g =>
+                    g.id.trim().toUpperCase() === id.toUpperCase()
+                );
 
                 if (guest) {
 
@@ -72,6 +86,7 @@
                 }
 
             })
+
             .catch(error => {
 
                 console.error(error);
@@ -79,6 +94,7 @@
                 document.getElementById("guest-name").textContent = "読み込みエラー";
 
             });
+
     </script>
 
 </body>
