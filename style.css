@@ -8,7 +8,7 @@
 
 body {
     font-family: "Zen Old Mincho", serif;
-    background: url("images/background.png") center center / cover no-repeat;
+    background: url("background.png") center center / cover no-repeat;
     width: 100%;
     min-height: 100vh;
 
