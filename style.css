@@ -40,7 +40,7 @@ body{
 .live-date{
 
     font-family:"Cormorant Garamond",serif;
-    font-size:17px;
+    font-size:15px;
     font-weight:400;
 
     color:#9da07d;
@@ -59,7 +59,7 @@ body{
 
     font-family:"Cormorant Garamond",serif;
 
-    font-size:24px;
+    font-size:20px;
 
     font-weight:500;
 
@@ -77,7 +77,7 @@ body{
 
     font-family:"Cormorant Garamond",serif;
 
-    font-size:32px;
+    font-size:28px;
 
     font-weight:500;
 
@@ -89,7 +89,7 @@ body{
 
     white-space:nowrap;
 
-    margin-bottom:28px;
+    margin-bottom:20px;
 
 }
 
@@ -97,7 +97,7 @@ body{
 
 .guest-name{
 
-    font-size:28px;
+    font-size:24px;
 
     font-weight:500;
 
@@ -105,7 +105,7 @@ body{
 
     letter-spacing:.08em;
 
-    margin-bottom:22px;
+    margin-bottom:20px;
 
 }
 
@@ -115,7 +115,7 @@ body{
 
     font-family:"Cormorant Garamond",serif;
 
-    font-size:22px;
+    font-size:20px;
 
     color:#9da07d;
 
@@ -139,7 +139,7 @@ body{
 
 .arena{
 
-    font-size:28px;
+    font-size:24px;
 
     margin-bottom:2px;
 
