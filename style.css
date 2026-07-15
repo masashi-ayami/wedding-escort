@@ -11,12 +11,10 @@
 body{
 
     font-family:"Zen Old Mincho",serif;
-
     background:url("background.png") center center / cover no-repeat;
-    background-attachment:scroll;
 
-    min-height:100vh;
     width:100%;
+    min-height:100vh;
 
     display:flex;
     justify-content:center;
@@ -42,16 +40,14 @@ body{
 .live-date{
 
     font-family:"Cormorant Garamond",serif;
-
-    font-weight:400;
-
     font-size:17px;
-
-    letter-spacing:.18em;
+    font-weight:400;
 
     color:#9da07d;
 
-    margin-bottom:18px;
+    letter-spacing:.18em;
+
+    margin-bottom:16px;
 
     font-variant-numeric:oldstyle-nums;
 
@@ -63,7 +59,7 @@ body{
 
     font-family:"Cormorant Garamond",serif;
 
-    font-size:33px;
+    font-size:24px;
 
     font-weight:500;
 
@@ -71,7 +67,7 @@ body{
 
     color:#9da07d;
 
-    margin-bottom:8px;
+    margin-bottom:4px;
 
 }
 
@@ -81,19 +77,19 @@ body{
 
     font-family:"Cormorant Garamond",serif;
 
-    font-size:29px;
+    font-size:32px;
 
     font-weight:500;
 
-    letter-spacing:.01em;
+    color:#9da07d;
 
-    line-height:1;
+    line-height:1.05;
+
+    letter-spacing:0;
 
     white-space:nowrap;
 
-    color:#9da07d;
-
-    margin-bottom:48px;
+    margin-bottom:28px;
 
 }
 
@@ -105,25 +101,25 @@ body{
 
     font-weight:500;
 
-    letter-spacing:.08em;
-
     color:#6d6d6d;
 
-    margin-bottom:34px;
+    letter-spacing:.08em;
+
+    margin-bottom:22px;
 
 }
 
-/* ---------- メッセージ ---------- */
+/* ---------- Thank you ---------- */
 
 .message{
 
     font-family:"Cormorant Garamond",serif;
 
-    font-size:24px;
+    font-size:22px;
 
     color:#9da07d;
 
-    margin-bottom:34px;
+    margin-bottom:18px;
 
 }
 
@@ -132,7 +128,9 @@ body{
 .seat-info{
 
     display:flex;
+
     flex-direction:column;
+
     align-items:center;
 
     color:#6d6d6d;
@@ -143,17 +141,13 @@ body{
 
     font-size:28px;
 
-    letter-spacing:.06em;
-
-    margin-bottom:4px;
+    margin-bottom:2px;
 
 }
 
 .seat{
 
     font-size:28px;
-
-    letter-spacing:.05em;
 
 }
 
@@ -163,7 +157,7 @@ body{
 
     opacity:0;
 
-    transform:translateY(10px);
+    transform:translateY(12px);
 
     animation:fadeUp .8s ease forwards;
 
@@ -181,7 +175,7 @@ body{
     from{
 
         opacity:0;
-        transform:translateY(10px);
+        transform:translateY(12px);
 
     }
 
@@ -194,13 +188,11 @@ body{
 
 }
 
-/* ---------- スマホ ---------- */
-
-@media(max-width:430px){
+@media (max-width:430px){
 
     .escort{
 
-        padding-top:6.5vh;
+        padding-top:6vh;
 
     }
 
