@@ -2,499 +2,499 @@
   {
     "id": "65VP602Z",
     "name": "藤川 鴻太郎",
-    "arena": "アリーナA",
+    "arena": "アリーナA1",
     "seat": "1"
   },
   {
     "id": "SXZQYZX8",
     "name": "山村 徹",
-    "arena": "アリーナA",
+    "arena": "アリーナA1",
     "seat": "2"
   },
   {
     "id": "15LIB0PI",
     "name": "三谷 冠",
-    "arena": "アリーナA",
+    "arena": "アリーナA1",
     "seat": "3"
   },
   {
     "id": "VTUJBW62",
     "name": "藤井 淳樹",
-    "arena": "アリーナA",
+    "arena": "アリーナA1",
     "seat": "4"
   },
   {
     "id": "PVZE5REU",
     "name": "塚本 優一",
-    "arena": "アリーナA",
+    "arena": "アリーナA1",
     "seat": "5"
   },
   {
     "id": "EVQR6JAZ",
     "name": "塚本 麻子",
-    "arena": "アリーナA",
+    "arena": "アリーナA1",
     "seat": "6"
   },
   {
     "id": "V7FMWXJB",
     "name": "多田 光伸",
-    "arena": "アリーナB",
+    "arena": "アリーナA2",
     "seat": "1"
   },
   {
     "id": "N153MP2V",
     "name": "酒井 芳盛",
-    "arena": "アリーナB",
+    "arena": "アリーナA2",
     "seat": "2"
   },
   {
     "id": "L1GT0B9N",
     "name": "宮脇 敬之",
-    "arena": "アリーナB",
+    "arena": "アリーナA2",
     "seat": "3"
   },
   {
     "id": "LONKB1NY",
     "name": "松代 崇宏",
-    "arena": "アリーナB",
+    "arena": "アリーナA2",
     "seat": "3"
   },
   {
     "id": "PBF4QYCO",
     "name": "中田 和也",
-    "arena": "アリーナB",
+    "arena": "アリーナA2",
     "seat": "4"
   },
   {
     "id": "OXD6DQET",
     "name": "柿木 佑允",
-    "arena": "アリーナB",
+    "arena": "アリーナA2",
     "seat": "5"
   },
   {
     "id": "PVKPE2KB",
     "name": "川﨑 守",
-    "arena": "アリーナB",
+    "arena": "アリーナA2",
     "seat": "6"
   },
   {
     "id": "ZUYBI14M",
     "name": "川染 浩二",
-    "arena": "アリーナB",
+    "arena": "アリーナA2",
     "seat": "7"
   },
   {
     "id": "W9EXLDG5",
     "name": "田村 穂",
-    "arena": "アリーナC",
+    "arena": "アリーナB1",
     "seat": "1"
   },
   {
     "id": "VXBUC51M",
     "name": "松島 研人",
-    "arena": "アリーナC",
+    "arena": "アリーナB1",
     "seat": "2"
   },
   {
     "id": "T10LUXLL",
     "name": "高橋 海渡",
-    "arena": "アリーナC",
+    "arena": "アリーナB1",
     "seat": "3"
   },
   {
     "id": "O74BVUEA",
     "name": "坂本 裕介",
-    "arena": "アリーナC",
+    "arena": "アリーナB1",
     "seat": "4"
   },
   {
     "id": "JIZN2GMS",
     "name": "守家 英斗",
-    "arena": "アリーナC",
+    "arena": "アリーナB1",
     "seat": "5"
   },
   {
     "id": "5PTTT7I8",
     "name": "田中 翔悟",
-    "arena": "アリーナC",
+    "arena": "アリーナB1",
     "seat": "6"
   },
   {
     "id": "TSKNG4HV",
     "name": "丸岡 充宏",
-    "arena": "アリーナD",
+    "arena": "アリーナB2",
     "seat": "1"
   },
   {
     "id": "BVHTDR0K",
     "name": "中野 拓也",
-    "arena": "アリーナD",
+    "arena": "アリーナB2",
     "seat": "2"
   },
   {
     "id": "BJ42MYKL",
     "name": "岸 有香",
-    "arena": "アリーナD",
+    "arena": "アリーナB2",
     "seat": "3"
   },
   {
     "id": "3VN2S8OH",
     "name": "山田 愛子",
-    "arena": "アリーナD",
+    "arena": "アリーナB2",
     "seat": "4"
   },
   {
     "id": "FQ3R3C7K",
     "name": "長谷 駿佑",
-    "arena": "アリーナD",
+    "arena": "アリーナB2",
     "seat": "5"
   },
   {
     "id": "DZ3NKBQ3",
     "name": "濵田 誠一",
-    "arena": "アリーナD",
+    "arena": "アリーナB2",
     "seat": "6"
   },
   {
     "id": "1GDA31UT",
     "name": "西田 賢人",
-    "arena": "アリーナD",
+    "arena": "アリーナB2",
     "seat": "7"
   },
   {
     "id": "3S5ZSYZM",
     "name": "竹田 康平",
-    "arena": "アリーナD",
+    "arena": "アリーナB2",
     "seat": "8"
   },
   {
     "id": "HLXBA4ZO",
     "name": "小林 成美",
-    "arena": "アリーナE",
+    "arena": "アリーナB3",
     "seat": "1"
   },
   {
     "id": "LD0NUWY4",
     "name": "安部 円佳",
-    "arena": "アリーナE",
+    "arena": "アリーナB3",
     "seat": "2"
   },
   {
     "id": "5T7MSB8D",
     "name": "正清 莉菜",
-    "arena": "アリーナE",
+    "arena": "アリーナB3",
     "seat": "3"
   },
   {
     "id": "HVCNGPJ8",
     "name": "山本 紗世",
-    "arena": "アリーナE",
+    "arena": "アリーナB3",
     "seat": "4"
   },
   {
     "id": "CS4D91MR",
     "name": "井西 紫乃",
-    "arena": "アリーナE",
+    "arena": "アリーナB3",
     "seat": "5"
   },
   {
     "id": "00SKB0UD",
     "name": "香川 彩佳",
-    "arena": "アリーナE",
+    "arena": "アリーナB3",
     "seat": "6"
   },
   {
     "id": "WCU362GW",
     "name": "白石 瞳",
-    "arena": "アリーナE",
+    "arena": "アリーナB3",
     "seat": "7"
   },
   {
     "id": "THEN9X3L",
     "name": "溝渕 あかり",
-    "arena": "アリーナF",
+    "arena": "アリーナB4",
     "seat": "1"
   },
   {
     "id": "T75F6IED",
     "name": "伊藤 友希乃",
-    "arena": "アリーナF",
+    "arena": "アリーナB4",
     "seat": "2"
   },
   {
     "id": "WA3LPOE6",
     "name": "若狭 弥保",
-    "arena": "アリーナF",
+    "arena": "アリーナB4",
     "seat": "3"
   },
   {
     "id": "SDNKOI6S",
     "name": "田中 愛理",
-    "arena": "アリーナF",
+    "arena": "アリーナB4",
     "seat": "4"
   },
   {
     "id": "SLER3M7A",
     "name": "菅野 志穂",
-    "arena": "アリーナF",
+    "arena": "アリーナB4",
     "seat": "5"
   },
   {
     "id": "90BBCK3R",
     "name": "村松 麻由",
-    "arena": "アリーナF",
+    "arena": "アリーナB4",
     "seat": "6"
   },
   {
     "id": "M2DZJS7B",
     "name": "桒原 崇顕",
-    "arena": "アリーナF",
+    "arena": "アリーナB4",
     "seat": "7"
   },
   {
     "id": "EBJWT55K",
     "name": "新井 瑞穂",
-    "arena": "アリーナG",
+    "arena": "アリーナB5",
     "seat": "1"
   },
   {
     "id": "YPDPR1PS",
     "name": "平山 優香",
-    "arena": "アリーナG",
+    "arena": "アリーナB5",
     "seat": "2"
   },
   {
     "id": "0X0O43YG",
     "name": "山﨑 美里",
-    "arena": "アリーナG",
+    "arena": "アリーナB5",
     "seat": "3"
   },
   {
     "id": "G447UMKL",
     "name": "山口 千咲",
-    "arena": "アリーナG",
+    "arena": "アリーナB5",
     "seat": "4"
   },
   {
     "id": "JQF9ZLXP",
     "name": "片山 里紗",
-    "arena": "アリーナG",
+    "arena": "アリーナB5",
     "seat": "5"
   },
   {
     "id": "ZSZ34ZAQ",
     "name": "上山 志衣菜",
-    "arena": "アリーナG",
+    "arena": "アリーナB5",
     "seat": "6"
   },
   {
     "id": "IZHULL2B",
     "name": "松倉 匠海",
-    "arena": "アリーナH",
+    "arena": "アリーナC1",
     "seat": "1"
   },
   {
     "id": "VA2NMBMG",
     "name": "松倉 慎",
-    "arena": "アリーナH",
+    "arena": "アリーナC1",
     "seat": "2"
   },
   {
     "id": "IPDOWF3H",
     "name": "松倉 誠",
-    "arena": "アリーナH",
+    "arena": "アリーナC1",
     "seat": "3"
   },
   {
     "id": "Z3JD81JL",
     "name": "松倉 寛",
-    "arena": "アリーナH",
+    "arena": "アリーナC1",
     "seat": "4"
   },
   {
     "id": "DV49YWRD",
     "name": "松倉 美枝",
-    "arena": "アリーナH",
+    "arena": "アリーナC1",
     "seat": "5"
   },
   {
     "id": "EWFCFQ8D",
     "name": "松倉 淳",
-    "arena": "アリーナH",
+    "arena": "アリーナC1",
     "seat": "6"
   },
   {
     "id": "CYIKS6KH",
     "name": "松倉 涼",
-    "arena": "アリーナH",
+    "arena": "アリーナC1",
     "seat": "7"
   },
   {
     "id": "ORDT5OIZ",
     "name": "松倉 菜摘",
-    "arena": "アリーナH",
+    "arena": "アリーナC1",
     "seat": "8"
   },
   {
     "id": "FF8EWB8L",
     "name": "一柳 沙季",
-    "arena": "アリーナI",
+    "arena": "アリーナC2",
     "seat": "1"
   },
   {
     "id": "O7I07ZQX",
     "name": "中村 怜那",
-    "arena": "アリーナI",
+    "arena": "アリーナC2",
     "seat": "2"
   },
   {
     "id": "WL6QTBC4",
     "name": "鶴見 璃緒",
-    "arena": "アリーナI",
+    "arena": "アリーナC2",
     "seat": "3"
   },
   {
     "id": "2EUW6T7W",
     "name": "堀川 理恵",
-    "arena": "アリーナI",
+    "arena": "アリーナC2",
     "seat": "4"
   },
   {
     "id": "VDQVQNRW",
     "name": "福原 麻祐",
-    "arena": "アリーナI",
+    "arena": "アリーナC2",
     "seat": "5"
   },
   {
     "id": "0AXP6X7L",
     "name": "唐津 里紗",
-    "arena": "アリーナI",
+    "arena": "アリーナC2",
     "seat": "6"
   },
   {
     "id": "LYD0S9AV",
     "name": "佐竹 美玖",
-    "arena": "アリーナI",
+    "arena": "アリーナC2",
     "seat": "7"
   },
   {
     "id": "B8RWDNHC",
     "name": "中尾 秀美",
-    "arena": "アリーナJ",
+    "arena": "アリーナC3",
     "seat": "1"
   },
   {
     "id": "T3X93UE2",
     "name": "長谷 和子",
-    "arena": "アリーナJ",
+    "arena": "アリーナC3",
     "seat": "2"
   },
   {
     "id": "NPG8Z98O",
     "name": "中尾 洋",
-    "arena": "アリーナJ",
+    "arena": "アリーナC3",
     "seat": "3"
   },
   {
     "id": "GPGOZFNK",
     "name": "中尾 豊",
-    "arena": "アリーナJ",
+    "arena": "アリーナC3",
     "seat": "4"
   },
   {
     "id": "ZCHXFUL3",
     "name": "中尾 幸子",
-    "arena": "アリーナJ",
+    "arena": "アリーナC3",
     "seat": "5"
   },
   {
     "id": "E426F8L4",
     "name": "猪俣 由起子",
-    "arena": "アリーナJ",
+    "arena": "アリーナC3",
     "seat": "6"
   },
   {
     "id": "V91HR5AK",
     "name": "上川 雄康",
-    "arena": "アリーナK",
+    "arena": "アリーナC4",
     "seat": "1"
   },
   {
     "id": "N0LY3HC4",
     "name": "宮川 雅也",
-    "arena": "アリーナK",
+    "arena": "アリーナC4",
     "seat": "2"
   },
   {
     "id": "4TLL0I4H",
     "name": "宮川 郁",
-    "arena": "アリーナK",
+    "arena": "アリーナC4",
     "seat": "3"
   },
   {
     "id": "EBRWYCOH",
     "name": "中尾 和雄",
-    "arena": "アリーナK",
+    "arena": "アリーナC4",
     "seat": "4"
   },
   {
     "id": "A9EJNFDQ",
     "name": "中尾 真代",
-    "arena": "アリーナK",
+    "arena": "アリーナC4",
     "seat": "5"
   },
   {
     "id": "J3W4V9C7",
     "name": "上川 友顧",
-    "arena": "アリーナK",
+    "arena": "アリーナC4",
     "seat": "6"
   },
   {
     "id": "J6GOIA7E",
     "name": "立石 圭",
-    "arena": "アリーナL",
+    "arena": "アリーナD1",
     "seat": "1"
   },
   {
     "id": "4S78GLT6",
     "name": "松倉 潤",
-    "arena": "アリーナL",
+    "arena": "アリーナD1",
     "seat": "2"
   },
   {
     "id": "Z25VPQT4",
     "name": "松倉 美知代",
-    "arena": "アリーナL",
+    "arena": "アリーナD1",
     "seat": "3"
   },
   {
     "id": "O39OMTBT",
     "name": "米倉 智幸",
-    "arena": "アリーナL",
+    "arena": "アリーナD1",
     "seat": "4"
   },
   {
     "id": "FR16K88X",
     "name": "立石 扶美代",
-    "arena": "アリーナL",
+    "arena": "アリーナD1",
     "seat": "5"
   },
   {
     "id": "U30O8DCB",
     "name": "立石 賢二",
-    "arena": "アリーナL",
+    "arena": "アリーナD1",
     "seat": "6"
   },
   {
     "id": "Q9683712",
     "name": "芦澤 早",
-    "arena": "アリーナL",
+    "arena": "アリーナD1",
     "seat": "7"
   },
   {
     "id": "N9T4Z4UY",
     "name": "芦澤 康太朗",
-    "arena": "アリーナL",
+    "arena": "アリーナD1",
     "seat": "8"
   }
 ]
